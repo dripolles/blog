@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>source{d}</title>
+    <link>/</link>
+    <description>Recent content on source{d}</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 19 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Notes on the Deep Learning Summit London 2015</title>
+      <link>/post/deep_learning_summit/</link>
+      <pubDate>Mon, 19 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/deep_learning_summit/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/post/deep_learning_summit/intro.png&#34; alt=&#34;Logo&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finding the most appropriate developers for a job offer is a very tough task, as proven by the plethora of tech recruiters that seem to be constantly shooting in the dark or outright lost. At &lt;a href=&#34;http://sourced.tech&#34;&gt;source{d}&lt;/a&gt;, we try to apply a &amp;ldquo;work smarter, not harder&amp;rdquo; mentality to this problem, by using automated processes to help us find the better matches without having to manually comb through thousands of profiles. It seems quite obvious that &lt;a href=&#34;https://en.wikipedia.org/wiki/Deep_learning&#34;&gt;deep learning&lt;/a&gt; can be a great aid to those processes, and that&amp;rsquo;s why some of us took a flight to London to attend the &lt;a href=&#34;https://www.re-work.co/events/deep-learning-london-2015&#34;&gt;Deep Learning Summit 2015&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We went there as total novices in the area, so we were expecting to absorb as much knowledge as possible from the experts gathering there. I guess that&amp;rsquo;s why I came back home with lots of notes, sources to read and unanswered questions. To sum it all up: it was great!&lt;/p&gt;
+
+&lt;p&gt;The amount of different topics and the quality of the talks was such that I’m actually having a hard time deciding what to write about. There was a good mix between more academic, bleeding edge research and down to earth commercial applications, with a lot of topics falling in the middle ground. I&amp;rsquo;ll talk about some of them, chosen by the perfectly unbiased criteria of being found cool by me.&lt;/p&gt;
+
+&lt;p&gt;I was personally amazed by the research done in &lt;a href=&#34;http://arxiv.org/abs/1509.00913&#34;&gt;perpetual learning&lt;/a&gt;, closely related to &lt;a href=&#34;http://www.cifar.ca/j%C3%B6rg-bornschein&#34;&gt;generative models&lt;/a&gt;. The main idea is that two deep neural networks act as a &amp;ldquo;memorize &amp;amp; learn&amp;rdquo; duo, so one is trained to recognize patterns (abstraction) and the other is trained to generate more examples to train the first (synthesis). This way, they can improve each other in some kind of automatic feedback loop, and do not depend on having so much training data. Of course, this is all very new and preliminary, but the concept is really interesting, so we&amp;rsquo;ll see where it goes.&lt;/p&gt;
+
+&lt;p&gt;Also, still at a very academic level, I was pleasantly surprised by the prevalence of &lt;a href=&#34;https://en.wikipedia.org/wiki/Word2vec&#34;&gt;word2vec&lt;/a&gt;. For those uninitiated, it&amp;rsquo;s a method to transform words into vectors of numbers that carry semantic meaning and can be manipulated arithmetically. In my limited knowledge, I had already seen it mentioned often as a very powerful tool for language analysis, so at least it was something that made me feel that we are on the right track. What was more interesting was how that concept is being extended or built upon to achieve even harder goals.&lt;/p&gt;
+
+&lt;p&gt;For example, &lt;a href=&#34;http://www.cs.tau.ac.il/~wolf/&#34;&gt;Prof. Lior Wolf&lt;/a&gt; gave a very interesting talk about using deep learning to automatically link images to sentences that describe them. To achieve that, and starting from word2vec, he explained how to use &lt;a href=&#34;http://www.cs.tau.ac.il/~wolf/papers/Klein_Associating_Neural_Word_2015_CVPR_paper.pdf&#34;&gt;Fisher vectors (PDF warning)&lt;/a&gt; to improve the models; accidentally, he made me take note that I &lt;em&gt;really&lt;/em&gt; need to dust off my algebra, but that&amp;rsquo;s another story.&lt;/p&gt;
+
+&lt;p&gt;Another pleasant surprise  was how &lt;a href=&#34;https://labs.yahoo.com/researchers/redi&#34;&gt;Miriam Redi&lt;/a&gt; is using deep learning to measure the aesthetic quality of images. Teaching computers &lt;a href=&#34;https://labs.yahoo.com/publications/6737/beauty-capturing-faces-rating-quality-digital-portraits&#34;&gt;what is beautiful&lt;/a&gt; and using that to help humans produce better art, or just find hidden gems in an ocean of socially shared imaged is, in my opinion, a very noble use of technology. I must also mention Appu Shaji from &lt;a href=&#34;https://www.eyeem.com/community&#34;&gt;EyeEm&lt;/a&gt;, a product centered around this idea of computational aesthetics.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve just written a lot about image processing, but deep learning has also proven to be a very powerful tool in manipulating natural language. Currently, the most interesting advancements seem to move towards understanding context, intent, and adapting to very different users (from accents to cultural differences). Some speakers that touched on these topics where Paul Murphy from &lt;a href=&#34;http://clarify.io/&#34;&gt;Clarify&lt;/a&gt; and Marius Cobzarenco from &lt;a href=&#34;https://reinfer.io/&#34;&gt;re:infer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The commercial applications were quite abundant and varied; from &lt;a href=&#34;http://biobeats.com/&#34;&gt;apps that help you be happier and healthier&lt;/a&gt; by giving personal advice to &lt;a href=&#34;http://www.kleintech.net/&#34;&gt;cameras that count bycicles&lt;/a&gt;. Of course, there&amp;rsquo;s &lt;a href=&#34;http://sourced.tech&#34;&gt;finding a job that you&amp;rsquo;ll love&lt;/a&gt;, too.&lt;/p&gt;
+
+&lt;p&gt;I could go on and on about all the amazing speakers and the vast knowledge that was shared at this conference, but I want to finish by reflecting on a quote from the &lt;a href=&#34;http://www.weave.ai/&#34;&gt;Weave.ai&lt;/a&gt; talk: &lt;em&gt;fifty percent of AI is UI&lt;/em&gt;. This technology is so magic that sometimes it&amp;rsquo;s scary, and it&amp;rsquo;s our job to learn to present it as friendly and accessible as possible. Getting everyone comfortable with the things that computers will be capable of doing is going to be a daunting task. I hope we can rise to the challenge.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taking Coding to the Mountains</title>
+      <link>/post/retreat-story/</link>
+      <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/retreat-story/</guid>
+      <description>
+
+&lt;p&gt;The Tyba engineers enjoyed a wonderful experience these last days of summer: spending two days in a country house, far away from the madding crowds, to participate in an &lt;strong&gt;Open Source Hackaton&lt;/strong&gt;. The venue, a beautiful villa located in &lt;a href=&#34;https://www.google.es/maps/place/28794+Guadalix+de+la+Sierra,+Madrid/@40.7834355,-3.6965663,15z/data=!3m1!4b1!4m2!3m1!1s0xd43d9017d147909:0x1a4e541fa536a900?hl=en&#34;&gt;Guadalix de la Sierra&lt;/a&gt;– promised both a nice place to work, as well as lots of fun in the spare time.&lt;/p&gt;
+
+&lt;h2 id=&#34;day-one-arrival-and-kickstart:834b40732fcdce82af4ba3c0c7dd58e2&#34;&gt;Day One: Arrival and Kickstart&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/curratore&#34;&gt;Curro&lt;/a&gt; and &lt;a href=&#34;https://github.com/toqueteos&#34;&gt;Carlos&lt;/a&gt; were our early birds. They were the first ones to arrive there, and kindly arranged everything with the housekeepers. &lt;a href=&#34;https://github.com/mcuadros&#34;&gt;Máximo&lt;/a&gt;, &lt;a href=&#34;http://margaridagarcialopes.com&#34;&gt;Marge&lt;/a&gt; and myself arrived some minutes later with the food. &lt;a href=&#34;https://github.com/filiptc&#34;&gt;Phil&lt;/a&gt;, &lt;a href=&#34;https://github.com/dripolles&#34;&gt;Dani&lt;/a&gt;, &lt;a href=&#34;https://github.com/mvader&#34;&gt;Miguel&lt;/a&gt;, &lt;a href=&#34;https://github.com/vasco2ramos&#34;&gt;Vasco&lt;/a&gt; and &lt;a href=&#34;https://github.com/rachelguerin&#34;&gt;Rachel&lt;/a&gt; made their appearance shortly afterwards. We were only missing &lt;a href=&#34;https://github.com/gsc&#34;&gt;Guillermo&lt;/a&gt; –whose GPS didn&amp;rsquo;t seem to like Guadalix very much, and made him drive around the town twice.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/retreat-story/9069.jpg&#34; alt=&#34;Phil T. chilling in the sun shortly upon arrival.&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The first surprise of the day was confirming that we were indeed far away from the big city: the Internet connection had the capacity of a 56kbps modem! After spending some minutes trying to figure out the problem, we resigned ourselves to using our phone connections –which luckily had good signal!&lt;/p&gt;
+
+&lt;p&gt;After Máximo&amp;rsquo;s (Tyba&amp;rsquo;s CTO) introduction, the brainstorming round started with everyone contributing their ideas. Prior to lunch, we chose the most suitable ideas for the Hackathon and formed the teams.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/retreat-story/9091.jpg&#34; alt=&#34;Dani (aka Mr. Developer) discussing his ideas for the Hackaton.&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;By the time we decided which projects were going to be developed it was already lunchtime. We had a nice meal with some snacks, including cheese, ham and tortilla!&lt;/p&gt;
+
+&lt;p&gt;With full stomachs and renewed strengths, the newly-formed teams exposed the scope of their selected ideas. The projects covered a range of topics: from improving open source tools (such as &lt;a href=&#34;https://github.com/molejs&#34;&gt;MoleJS&lt;/a&gt;, proudly created and maintained by our frontenders Miguel and Phil) to creating a signaling mechanism for the source{d} daemons.&lt;/p&gt;
+
+&lt;p&gt;With the teams formed and the plans explained, it was time to get to work! It was a nice workplace this sunny but rather chilly afternoon –at least until we discovered how to make the heating work!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/retreat-story/9149.jpg&#34; alt=&#34;Carlos hard at work.&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Before dinner we had a Docker talk. Curro initiated us in this awesome technology that we intensively use at Tyba. Since we were a little behind schedule, we only had time for a couple of questions, but the talk was quite revealing anyways!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/retreat-story/9160.jpg&#34; alt=&#34;Curro explaining some interesting Docker-related concepts.&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And finally, the long-awaited spare time! It was barely 30 minutes before dinner, but it was appreciated  after a fully-packed, productive day. Some of us just chilled for a bit, some of us took a shower, and Phil went straight to prepare&amp;hellip; the barbecue!&lt;/p&gt;
+
+&lt;p&gt;Chorizo and lamb ribs were among the tasty things slowly grilled on the fire. After dinner, Vasco mastered a role-playing game that had us laughing for almost an hour, and even though some of us still had strength for some more beers, most part of the troop went straight to bed to get some rest.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/retreat-story/9177.jpg&#34; alt=&#34;Curro clearly enjoying his after dinner beer.&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;day-two-final-lap-and-farewell:834b40732fcdce82af4ba3c0c7dd58e2&#34;&gt;Day Two: Final Lap and Farewell&lt;/h2&gt;
+
+&lt;p&gt;Alarm clocks were set at 9:00am. Sleepy faces, occupied bathrooms and instant coffee were the stars of our breakfast, which lasted one hour. By 10:00am all eyes were on the laptops. We only had a few hours to go and there was still a lot of work to get done.&lt;/p&gt;
+
+&lt;p&gt;In the blink of an eye, lunch-time was there, and we stopped briefly to have some pizza. Under normal circumstances everyone would be back at work in no-time, but for some reason (my bet is on the nice weather) the action started moving to the pool and the backyard.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/retreat-story/9195.jpg&#34; alt=&#34;The sun accompanied us both during and after lunch.&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;By the time someone plunged into the pool, it was clear that we were making a quick break to enjoy the nice weather.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/retreat-story/9258.jpg&#34; alt=&#34;Some of us even dared to swim in cold water.&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;We spent the last couple of hours working in quiet places while giving the last brushstrokes to our projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/retreat-story/9239.jpg&#34; alt=&#34;Rachel and Marge working while enjoying the bright sun.&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/retreat-story/9261.jpg&#34; alt=&#34;Dani, Rachel and Vasco comfortably working from one of the many couches.&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And finally, the moment of truth arrived. Máximo called &amp;lsquo;hands off&amp;rsquo; the laptops, and we gathered in the living room to showcase our achievements.&lt;/p&gt;
+
+&lt;p&gt;After the teams demoed the results, it was clear that most of what was planned had been achieved! The Hackaton had been a great success.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/retreat-story/9275.jpg&#34; alt=&#34;Laptop wearing a pair of fashionable bunny ears we found lying around.&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Sadly, some of us had to leave briefly after the closing session, but I&amp;rsquo;m most certain that the stronghold of party-lovers had lots of fun throughout the second night!&lt;/p&gt;
+
+&lt;p&gt;We can only hope that the next retreat is not so far away! We developed great ideas, and had lots of fun. It is clear that Tyba has amazing people, which shows not only within the walls of the office, but also&amp;hellip; anywhere in the world!**&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
